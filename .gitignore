@@ -1,0 +1,9 @@
+# Ignore everything in these directories
+data/*
+images/*
+
+# But keep the directories with .gitkeep
+!data/.gitkeep
+!images/.gitkeep
+
+__pycache__/*
